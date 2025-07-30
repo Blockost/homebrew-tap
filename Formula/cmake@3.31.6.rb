@@ -22,6 +22,8 @@ class CmakeAT3316 < Formula
     depends_on "openssl@3"
   end
 
+  # Comment to trigger PR workflow
+
   # Prevent the formula from breaking on version/revision bumps.
   # Check if possible to remove in 3.32.0
   # https://gitlab.kitware.com/cmake/cmake/-/merge_requests/9978
