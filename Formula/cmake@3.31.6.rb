@@ -16,6 +16,13 @@ class CmakeAT3316 < Formula
     regex(/href=.*?cmake[._-]v?(\d+(?:\.\d+)+)\.t/i)
   end
 
+  bottle do
+    root_url "https://github.com/Blockost/homebrew-tap/releases/download/cmake@3.31.6-3.31.6"
+    rebuild 1
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "0d8cecc6d462ccb2a94059e979ed1fafc955957bafeda5d5b2f205c48c35caf1"
+    sha256 cellar: :any_skip_relocation, arm64_sonoma:  "f782d91e89841c33c4b08f5cadd1ac25bce23c271d9db469364e786362b0ba7a"
+  end
+
   uses_from_macos "ncurses"
 
   on_linux do
