@@ -14,6 +14,12 @@ class BoostAT1830 < Formula
     end
   end
 
+  bottle do
+    root_url "https://github.com/Blockost/homebrew-tap/releases/download/boost@1.83.0-1.83.0"
+    sha256               arm64_sequoia: "48173335bfc479f2e2d72b8975e630f81916ea7bc062f0d7215f9fbcf0732552"
+    sha256 cellar: :any, ventura:       "9d8b9b0646aea33b50347b63f6d8a8211317533793664a3784d2740ffcddff67"
+  end
+
   depends_on "icu4c"
   depends_on "xz"
   depends_on "zstd"
