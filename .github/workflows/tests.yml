@@ -12,7 +12,7 @@ jobs:
       matrix:
         # Originally, ubuntu-22.04 was supported but kept failing.
         # See https://github.com/Blockost/homebrew-tap/actions/runs/16610426484/job/46992248908?pr=1#step:6:55
-        os: [ macos-13, macos-15 ] 
+        os: [ macos-14, macos-15 ] 
     runs-on: ${{ matrix.os }}
     permissions:
       actions: read
