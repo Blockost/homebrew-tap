@@ -16,6 +16,8 @@ class CmakeAT3316 < Formula
     regex(/href=.*?cmake[._-]v?(\d+(?:\.\d+)+)\.t/i)
   end
 
+  # Comment to trigger PR workflow
+
   uses_from_macos "ncurses"
 
   on_linux do
