@@ -14,6 +14,7 @@ class BoostAT1830 < Formula
     end
   end
 
+  # Comment to trigger PR worflow
   bottle do
     root_url "https://github.com/Blockost/homebrew-tap/releases/download/boost@1.83.0-1.83.0"
     sha256               arm64_sequoia: "48173335bfc479f2e2d72b8975e630f81916ea7bc062f0d7215f9fbcf0732552"
